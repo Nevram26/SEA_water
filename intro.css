@@ -1,0 +1,104 @@
+body {
+    background-color: #fff9db;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+}
+
+.taskbar {
+    background-color: #284E66;
+    overflow: hidden;
+}
+
+.taskbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.taskbar li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.taskbar a {
+    color: #F6F4EB;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.taskbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.profile-cont {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#profile-pic {
+    border: solid 5px #001f3f;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#profile-desc {
+    color: #001f3f;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.skills-strengths, .dreams {
+    background-color: #f4f4f4; 
+    border: 2px solid #001f3f;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.skills-strengths h3, .strengths h3, .dreams h3 {
+    color: #001f3f;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.polaroid {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #001f3f;
+    box-shadow: 2px 2px 5px #aaaaaa;
+    text-align: center;
+    margin: 10px;
+    width: 240px;
+}
+
+.polaroid img {
+    width: 220px;
+    height: 220px; 
+    border-radius: 0; 
+    object-fit: cover; 
+}
+
+.caption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #001f3f;
+}
+
+.container video, .container audio {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
