@@ -9,12 +9,12 @@ body {
     margin: auto;
 }
 
-.taskbar {
+.nav-bar {
     background-color: #284E66;
     overflow: hidden;
 }
 
-.taskbar ul {
+.nav-bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,19 +22,19 @@ body {
     justify-content: right;
 }
 
-.taskbar li {
+.nav-bar li {
     display: inline;
     margin: 0 20px;
 }
 
-.taskbar a {
+.nav-bar a {
     color: #F6F4EB;
     text-decoration: none;
     padding: 14px 20px;
     display: block;
 }
 
-.taskbar a:hover {
+.nav-bar a:hover {
     background-color: #575757;
     border-radius: 5px;
 }
