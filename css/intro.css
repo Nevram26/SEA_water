@@ -35,8 +35,31 @@ body {
 }
 
 .nav-bar a:hover {
-    background-color: #575757;
+    background-color: #749BC2;
     border-radius: 5px;
+}
+
+.nav-bar .nav-logo img {
+    max-height: 50px; 
+    vertical-align: middle;
+    padding-right: 10px; 
+}
+.img-logo {
+    width: auto;
+    height: 20%;
+    vertical-align: middle;
+}
+
+.div-banner {
+
+}
+
+.div-cont {
+
+}
+
+.div-bottom {
+    
 }
 
 .profile-cont {
@@ -72,33 +95,5 @@ body {
 .media {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
-}
-
-.polaroid {
-    background-color: white;
-    padding: 10px;
-    border: 1px solid #001f3f;
-    box-shadow: 2px 2px 5px #aaaaaa;
-    text-align: center;
-    margin: 10px;
-    width: 240px;
-}
-
-.polaroid img {
-    width: 220px;
-    height: 220px; 
-    border-radius: 0; 
-    object-fit: cover; 
-}
-
-.caption {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #001f3f;
-}
-
-.container video, .container audio {
-    margin-right: 10px;
     margin-bottom: 10px;
 }
