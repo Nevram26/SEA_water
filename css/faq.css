@@ -73,7 +73,7 @@ body {
     color: #fff9db;
     font-size: 60px;
     font-weight: bold;
-    text-shadow: 1px 4px #284E66;   
+    text-shadow: 1px 4px #284E66;
     text-align: center;
 }
 
@@ -255,7 +255,7 @@ details div {
     gap: 5em;
     display: flex;
     flex-flow: wrap;
-    
+
 }
 
 @media screen and (max-width: 1030px) {
@@ -287,7 +287,7 @@ details div {
         display: block;
         margin-left: auto;
         margin-right: auto;
- 
+
     }
 
     .nav-toggle:checked + .burger-icon + .nav-logo + .nav-items {
@@ -295,23 +295,27 @@ details div {
     }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .nav-bar ul {
         flex-direction: column;
         align-items: flex-start;
     }
 }
+
 /* Footer media query */
 @media screen and (min-width: 600px) {
     .side-two > * {
         flex: 1;
     }
+
     .features {
         flex-grow: 2;
     }
+
     .side-one {
         flex: 1 0px;
     }
+
     .side-two {
         flex: 2 0px;
     }

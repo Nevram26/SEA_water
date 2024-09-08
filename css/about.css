@@ -1,4 +1,4 @@
-body{
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -97,7 +97,7 @@ body {
     color: #fff9db;
     font-size: 60px;
     font-weight: bold;
-    text-shadow: 1px 4px #284E66;   
+    text-shadow: 1px 4px #284E66;
     text-align: center;
 }
 
@@ -116,7 +116,7 @@ body {
     margin: 10px;
     border-radius: 25px;
     max-width: 30%;
- 
+
 }
 
 .p-description {
@@ -124,7 +124,7 @@ body {
     padding: 10px;
 }
 
-.h3-header-left{
+.h3-header-left {
     color: #284E66;
     font-size: 45px;
     font-weight: bold;
@@ -142,13 +142,14 @@ body {
     text-align: right;
 }
 
-.p-description-left{
+.p-description-left {
     color: #284E66;
     font-size: 25px;
     font-weight: bold;
     text-shadow: 1px 1px #000000;
-    text-align: left; 
+    text-align: left;
 }
+
 .p-description-right {
     color: #284E66;
     font-size: 25px;
@@ -157,13 +158,13 @@ body {
     text-align: right;
 }
 
-.div-background-blue{
+.div-background-blue {
     background: #4682A9;
     width: 100%;
     height: auto;
     position: relative;
     padding: 1px;
-    }
+}
 
 .team-intro-container {
     display: flex;
@@ -173,9 +174,9 @@ body {
     flex-wrap: wrap;
     padding: 10px 0;
 }
-    
 
-.h3-center{
+
+.h3-center {
     color: #fff9db;
     font-size: 60px;
     font-weight: bold;
@@ -184,7 +185,7 @@ body {
     margin-bottom: 10px;
 }
 
-.p-center{
+.p-center {
     color: #fff9db;
     font-size: 25px;
     font-weight: bold;
@@ -238,7 +239,7 @@ body {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    object-fit: cover; 
+    object-fit: cover;
     margin-bottom: 15px;
     display: block;
     margin-left: auto;
@@ -275,13 +276,13 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
- 
+
     }
 
     .nav-toggle:checked + .burger-icon + .nav-logo + .nav-items {
         display: flex;
     }
-    
+
     .team-grid {
         flex-direction: column;
         align-items: center;
@@ -302,14 +303,17 @@ body {
         flex-direction: column;
         text-align: center;
     }
+
     .img-gallery, .who-we-are-text {
         width: 90%;
         margin: 10px 0;
     }
+
     .h3-header-right, .h3-header-left {
         font-size: 30px;
         text-align: center;
     }
+
     .p-description-right, .p-description-left {
         font-size: 18px;
         text-align: center;

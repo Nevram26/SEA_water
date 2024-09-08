@@ -10,59 +10,59 @@ body {
 }
 
 .nav-bar {
-  background-color: #284E66;
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  position: relative;
+    background-color: #284E66;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
 }
 
 .nav-items {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-grow: 1;
-  justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
 }
 
 .nav-items li {
-  padding: 14px 20px;
+    padding: 14px 20px;
 }
 
 .nav-logo {
-  margin-left: 10px;
-  display: flex;
-  align-items: center;
-  pointer-events: none;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
 }
 
 .nav-logo img {
-  max-height: 50px;
-  vertical-align: middle;
+    max-height: 50px;
+    vertical-align: middle;
 }
 
 .nav-bar a {
-  color: white;
-  text-decoration: none;
-  display: block;
-  padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 14px 20px;
 }
 
 .nav-bar a:hover {
-  background-color: #3A6D8F;
+    background-color: #3A6D8F;
 }
 
 .burger-icon {
-  display: none;
-  cursor: pointer;
-  font-size: 30px;
-  color: white;
-  margin-left: 10px;
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
 }
 
 .nav-toggle {
-  display: none;
+    display: none;
 }
 
 .img-logo {
@@ -71,114 +71,114 @@ body {
     vertical-align: middle;
 }
 
-.related-resources{
-  font-size: 48px; 
-  font-weight: bold; 
-  color: #284E66;
-  margin-left: 20px;
-  margin-bottom: 20px; 
-  text-align: left; 
-  letter-spacing: 1px; 
+.related-resources {
+    font-size: 48px;
+    font-weight: bold;
+    color: #284E66;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    letter-spacing: 1px;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    padding: 20px; 
-  }
+    padding: 20px;
+}
 
-.resource-1{
-    background-color: #284E66; 
-    color: white; 
-    padding: 15px; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    text-align: left; 
-  }
+.resource-1 {
+    background-color: #284E66;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
 
-.resource-2{
-    background-color: #284E66; 
-    color: white; 
-    padding: 15px; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    text-align: left; 
-  }
+.resource-2 {
+    background-color: #284E66;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
 
-.resource-3{
-    background-color: #284E66; 
-    color: white; 
-    padding: 15px; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    text-align: left; 
-  }
+.resource-3 {
+    background-color: #284E66;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
 
-.resource-4{
-    background-color: #284E66; 
-    color: white; 
-    padding: 15px; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    text-align: left; 
-  }
+.resource-4 {
+    background-color: #284E66;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
 
-.resource-5{
-    background-color: #284E66; 
-    color: white; 
-    padding: 15px; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    text-align: left; 
-  }
+.resource-5 {
+    background-color: #284E66;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
 
-.resource-6{
-    background-color: #284E66; 
-    color: white; 
-    padding: 15px; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    text-align: left; 
-  }
+.resource-6 {
+    background-color: #284E66;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
 
-.resource-7{
-    background-color: #284E66; 
-    color: white; 
-    padding: 15px; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    text-align: left; 
-  }
+.resource-7 {
+    background-color: #284E66;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
 
-.resource-8{
-    background-color: #284E66; 
-    color: white; 
-    padding: 15px; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    text-align: left; 
-  }
+.resource-8 {
+    background-color: #284E66;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
 
-.resource-9{
-    background-color: #284E66; 
-    color: white; 
-    padding: 15px; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    text-align: left; 
-  }
+.resource-9 {
+    background-color: #284E66;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
 
-.resource-10{
-    background-color: #284E66; 
-    color: white; 
-    padding: 15px; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    text-align: left; 
-  }
+.resource-10 {
+    background-color: #284E66;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
 
-  @media screen and (max-width: 1030px) {
+@media screen and (max-width: 1030px) {
     .nav-items {
         display: none;
         flex-direction: column;
@@ -207,13 +207,13 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
- 
+
     }
 
     .nav-toggle:checked + .burger-icon + .nav-logo + .nav-items {
         display: flex;
     }
-    
+
     .team-grid {
         flex-direction: column;
         align-items: center;
@@ -234,14 +234,17 @@ body {
         flex-direction: column;
         text-align: center;
     }
+
     .img-gallery, .who-we-are-text {
         width: 90%;
         margin: 10px 0;
     }
+
     .h3-header-right, .h3-header-left {
         font-size: 30px;
         text-align: center;
     }
+
     .p-description-right, .p-description-left {
         font-size: 18px;
         text-align: center;

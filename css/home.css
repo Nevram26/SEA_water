@@ -94,7 +94,7 @@ body {
     color: #fff9db;
     font-size: 40px;
     font-weight: bold;
-    text-shadow: 1px 4px #284E66;   
+    text-shadow: 1px 4px #284E66;
     text-align: center;
 }
 
@@ -106,7 +106,7 @@ body {
     color: #fff9db;
     font-size: 20px;
     font-weight: bold;
-    text-shadow: 1px 4px #284E66;   
+    text-shadow: 1px 4px #284E66;
     text-align: center;
 }
 
@@ -133,7 +133,7 @@ body {
 }
 
 .image-wrapper {
-    width: 30%; 
+    width: 30%;
     height: auto;
     margin: 10px;
     border-radius: 25px;
@@ -147,21 +147,21 @@ body {
 
 .big-pic {
     grid-area: 1 / 1;
-    width: 100%; 
-    height: auto; 
-    border-radius: 25px; 
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
 }
 
 .small-pic {
     position: absolute;
     top: 0;
     right: 0;
-    width: 150px; 
+    width: 150px;
     height: auto;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
-.h3-left{
+.h3-left {
     color: #284E66;
     font-size: 45px;
     font-weight: bold;
@@ -179,13 +179,14 @@ body {
     text-align: right;
 }
 
-.p-left{
+.p-left {
     color: #284E66;
     font-size: 25px;
     font-weight: bold;
     text-shadow: 1px 1px #000000;
     text-align: left;
 }
+
 .p-right {
     color: #284E66;
     font-size: 25px;
@@ -200,9 +201,9 @@ body {
     height: auto;
     position: relative;
     padding: 1px;
-    }
+}
 
-.div-bottom-cont h2{
+.div-bottom-cont h2 {
     font-size: 60px;
     color: #284E66;
     font-weight: bold;
@@ -252,7 +253,7 @@ body {
 }
 
 .skills-strengths, .dreams {
-    background-color: #f4f4f4; 
+    background-color: #f4f4f4;
     border: 2px solid #001f3f;
     padding: 20px;
     margin: 20px 0;
@@ -297,13 +298,13 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
- 
+
     }
 
     .nav-toggle:checked + .burger-icon + .nav-logo + .nav-items {
         display: flex;
     }
-    
+
     .team-grid {
         flex-direction: column;
         align-items: center;
@@ -319,19 +320,22 @@ body {
         flex-direction: column;
         align-items: flex-start;
     }
+
     .home-image, .who-we-are-text {
         width: 90%;
         margin: 10px 0;
     }
+
     .h3-right, .h3-left {
         font-size: 30px;
         text-align: center;
     }
+
     .p-right, .p-left {
         font-size: 18px;
         text-align: center;
     }
-    
+
     .small-pic {
         width: 100px;
         top: 5px;
@@ -339,7 +343,7 @@ body {
     }
 
     .big-pic {
-        width: 100%; 
+        width: 100%;
         height: auto;
     }
 }
@@ -358,7 +362,7 @@ body {
     }
 
     .small-pic {
-        width: 80px; 
+        width: 80px;
         top: 5px;
         right: 5px;
     }
@@ -381,15 +385,15 @@ body {
     .p-right, .p-left {
         font-size: 14px;
     }
-    
+
     .small-pic {
-        width: 60px; 
+        width: 60px;
         top: 3px;
         right: 3px;
     }
 
     .big-pic {
-        width: 100%; 
+        width: 100%;
         height: auto;
     }
 }
