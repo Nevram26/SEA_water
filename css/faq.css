@@ -168,20 +168,113 @@ details div {
 }
 
 .girl-vector-left {
-    transform: scaleX(-1) translateX(20%) translateY(-10%);
+    transform: scaleX(-1) translateX(-6%) translateY(-10%);
 }
 
-.girl-vector-right {
-    left: auto; 
-    right: 0;
-    transform: translateX(20%) translateY(14%);
+.footer-div {
+    box-sizing: border-box;
+    margin: 0;
+    display: grid;
+    font-size: 14px;
+}
+
+.footer-distributed {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #F6F4EB;
+    background: #284E66;
+}
+
+.footer-distributed > * {
+    flex: 1 100%;
+}
+
+.side-one {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+.footer-distributed h2 {
+    font-weight: bold;
+    font-size: 22px;
+    color: #91C8E4;
+}
+
+.footer-distributed ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-distributed li {
+    line-height: 2em;
+}
+
+.footer-distributed a {
+    text-decoration: none;
+}
+
+.side-two {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.side-two > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+
+.box a {
+    color: #F6F4EB;
+}
+
+.h-box {
+    column-count: 2;
+    column-gap: 1.25em;
+}
+
+.copyright {
+    text-align: center;
+    color: #F6F4EB;
+    padding-top: 50px;
+}
+
+.side-one p {
+    padding-right: 20%;
+    color: #F6F4EB;
+}
+
+.footer-logo {
+    width: 250px;
+    height: auto;
+}
+
+/* Footer media query */
+@media screen and (min-width: 600px) {
+    .side-two > * {
+        flex: 1;
+    }
+    .features {
+        flex-grow: 2;
+    }
+    .side-one {
+        flex: 1 0px;
+    }
+    .side-two {
+        flex: 2 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-distributed {
+        padding: 40px;
+    }
 }
 
 /* Make the images responsive */
 @media (max-width: 1024px) {
-    .girl-vector-left,
-    .girl-vector-right {
-        max-width: 600px; /* Adjust max width for smaller screens */
+    .girl-vector-left {
+        max-width: 90%; /* Adjust max width for smaller screens */
         margin-top: 4rem; /* Adjust margin for smaller screens */
     }
 }
@@ -189,7 +282,7 @@ details div {
 @media (max-width: 768px) {
     .girl-vector-left,
     .girl-vector-right {
-        max-width: 400px; /* Further adjust max width */
+        max-width: 40%; /* Further adjust max width */
         margin-top: 2rem; /* Further adjust margin */
     }
 }
@@ -197,7 +290,105 @@ details div {
 @media (max-width: 480px) {
     .girl-vector-left,
     .girl-vector-right {
-        max-width: 300px; /* Further adjust for small screens */
+        max-width: 30%; /* Further adjust for small screens */
         margin-top: 1rem; /* Further adjust margin */
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .nav-items {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #284E66;
+        z-index: 1000;
+    }
+
+    .nav-items li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .burger-icon {
+        display: block;
+        position: absolute;
+        left: 10px;
+    }
+
+    .nav-logo {
+        order: 1;
+        display: flex;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+ 
+    }
+
+    .nav-toggle:checked + .burger-icon + .nav-logo + .nav-items {
+        display: flex;
+    }
+    
+    .team-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-card {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-bar ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .who-we-are-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .img-gallery, .who-we-are-text {
+        width: 90%;
+        margin: 10px 0;
+    }
+    .h3-header-right, .h3-header-left {
+        font-size: 30px;
+        text-align: center;
+    }
+    .p-description-right, .p-description-left {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-center {
+        font-size: 35px;
+    }
+
+    .h3-header-right, .h3-header-left {
+        font-size: 28px;
+    }
+
+    .p-description-right, .p-description-left {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .text-center {
+        font-size: 28px;
+    }
+
+    .h3-header-right, .h3-header-left {
+        font-size: 24px;
+    }
+
+    .p-description-right, .p-description-left {
+        font-size: 14px;
     }
 }
