@@ -11,26 +11,35 @@ body {
 
 .nav-bar {
     background-color: #284E66;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
 }
 
-.nav-bar ul {
+.nav-items {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-grow: 1;
+    justify-content: flex-end;
 }
 
-.nav-bar li {
+.nav-items li {
     padding: 14px 20px;
 }
 
-.nav-bar .nav-logo img {
-    max-height: 50px; 
+.nav-logo {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+
+.nav-logo img {
+    max-height: 50px;
     vertical-align: middle;
-    padding-right: 10px; 
 }
 
 .nav-bar a {
@@ -42,6 +51,18 @@ body {
 
 .nav-bar a:hover {
     background-color: #3A6D8F;
+}
+
+.burger-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+}
+
+.nav-toggle {
+    display: none;
 }
 
 .text-center {
