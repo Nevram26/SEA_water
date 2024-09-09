@@ -140,6 +140,10 @@ body {
     margin-bottom: 10px;
 }
 
+.donation-section {
+    margin: 5% 0;
+}
+
 .footer-div {
     box-sizing: border-box;
     margin: 0;
