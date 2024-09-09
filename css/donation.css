@@ -1,0 +1,270 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+}
+
+.nav-bar {
+    background-color: #284E66;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.nav-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.nav-items li {
+    padding: 14px 20px;
+}
+
+.nav-logo {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+
+.nav-logo img {
+    max-height: 50px;
+    vertical-align: middle;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 14px 20px;
+}
+
+.nav-bar a:hover {
+    background-color: #3A6D8F;
+}
+
+.burger-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.img-logo {
+    width: auto;
+    height: 20%;
+    vertical-align: middle;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.card-text {
+    flex: 1;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.donate-button:hover {
+    background-color: #0056b3;
+}
+
+.about {
+    border-radius: 8px;;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.about h2 {
+    font-size: 24px;
+    color: #284E66;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1030px) {
+    .nav-items {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #284E66;
+        z-index: 1000;
+    }
+
+    .nav-items li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .burger-icon {
+        display: block;
+        position: absolute;
+        left: 10px;
+    }
+
+    .nav-logo {
+        order: 1;
+        display: flex;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .nav-toggle:checked + .burger-icon + .nav-logo + .nav-items {
+        display: flex;
+    }
+
+    .team-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-card {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-bar ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .home-image, .who-we-are-text {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .h3-right, .h3-left {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .p-right, .p-left {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .small-pic {
+        width: 100px;
+        top: 5px;
+        right: 5px;
+    }
+
+    .big-pic {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-center {
+        font-size: 35px;
+    }
+
+    .h3-right, .h3-left {
+        font-size: 28px;
+    }
+
+    .p-right, .p-left {
+        font-size: 16px;
+    }
+
+    .small-pic {
+        width: 80px;
+        top: 5px;
+        right: 5px;
+    }
+
+    .big-pic {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .text-center {
+        font-size: 28px;
+    }
+
+    .h3-right, .h3-left {
+        font-size: 24px;
+    }
+
+    .p-right, .p-left {
+        font-size: 14px;
+    }
+
+    .small-pic {
+        width: 60px;
+        top: 3px;
+        right: 3px;
+    }
+
+    .big-pic {
+        width: 100%;
+        height: auto;
+    }
+}
