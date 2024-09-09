@@ -109,7 +109,13 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
+    transition: transform 0.2s, box-shadow 0.2s; 
 }
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 
 .div-banner {
     background: #284E66;
@@ -285,7 +291,6 @@ body {
     height: 100px;
 }
 
-/* Footer media query */
 @media screen and (min-width: 600px) {
     .side-two > * {
         flex: 1;
