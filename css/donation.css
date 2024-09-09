@@ -351,14 +351,7 @@ body {
         display: flex;
     }
 
-    .team-grid {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .team-card {
-        width: 90%;
-    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -392,6 +385,16 @@ body {
         width: 100%;
         height: auto;
     }
+    .card {
+        margin-left: 10%;
+        margin-right: 10%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .card img {
+        margin-bottom: 16px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -417,6 +420,14 @@ body {
         width: 100%;
         height: auto;
     }
+    .card {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .card img {
+        width: 100px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -441,5 +452,13 @@ body {
     .big-pic {
         width: 100%;
         height: auto;
+    }
+    .card {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .card img {
+        width: 80px;
     }
 }
