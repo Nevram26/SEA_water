@@ -277,7 +277,7 @@ body {
 
 #topButton img {
     display: block;
-    width: 20%px;
+    width: 20% px;
     height: 100px;
 }
 
@@ -378,7 +378,7 @@ body {
         text-align: center;
     }
 
-    
+
 }
 
 @media screen and (max-width: 768px) {
@@ -393,11 +393,12 @@ body {
     .p-description-right, .p-description-left {
         font-size: 16px;
     }
+
     .grid-container {
         display: flex;
         flex-direction: column;
     }
-    
+
 }
 
 @media screen and (max-width: 480px) {
