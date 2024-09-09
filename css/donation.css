@@ -231,6 +231,22 @@ body {
 
 }
 
+#topButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#topButton img {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
 /* Footer media query */
 @media screen and (min-width: 600px) {
     .side-two > * {
